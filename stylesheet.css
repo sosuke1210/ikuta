@@ -74,4 +74,11 @@ h4 {
   .a {
     font-size: 11px;
   }
+  .c {
+    font-size: 30px;
+    font-weight: bold;
+    float: right;
+    padding-right: 350px;
+    letter-spacing: 5px;
+  }
 }
