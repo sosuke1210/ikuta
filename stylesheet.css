@@ -20,6 +20,7 @@ li {
   color: #2c4f54;
   font-size: 40px;
   width: 100%;
+  font-family: メイリオ;
 }
 .a div {
   padding-top: 80px;
@@ -83,3 +84,4 @@ h4 {
     letter-spacing: 5px;
   }
 }
+
