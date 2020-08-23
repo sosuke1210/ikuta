@@ -1,0 +1,77 @@
+body {
+  height: 800px;
+}
+li {
+  list-style: none;
+  line-height: 80px;
+  padding-left: 20px;
+  float: left;
+}
+.c {
+  float: right;
+  display: inline;
+  padding-right: 550px;
+  letter-spacing: 5px;
+}
+.a {
+  background-color: #dddcd6;
+  opacity: 0.8;
+  color: #2c4f54;
+  font-size: 40px;
+  width: 100%;
+}
+.a div {
+  padding-top: 80px;
+}
+span {
+  color: #e60033;
+}
+header {
+  color: #ffffff;
+  height: 80px;
+  width: 100%;
+  background-color: #674598;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+.z {
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  background-color: #33cccc;
+  padding: 15px 40px;
+  box-shadow: 0 7px #1a7940;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.z:active {
+  box-shadow:none;
+  position:relative;
+  top: 7px;
+}
+.z img {
+  width: 30px;
+}
+footer {
+  background-color: #fef4f4;
+  height: 100px;
+}
+.h,.o {
+  display: none;
+}
+h4 {
+  font-weight: normal;
+}
+.k,.j,.m,.n {
+  cursor: pointer;
+}
+/*レスポンシブデザイン*/
+@media screen and (max-width: 980px) {
+  .a {
+    font-size: 11px;
+  }
+}
