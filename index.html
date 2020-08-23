@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>自由研究</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <head>
+    <meta charset="utf-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" defer></script>
+    <script>
+    $(function() {
+      $('.i').click(function() {
+        var $h = $(this).find('.h');
+        if ($('.h').hasClass('open')) {
+          $('.h').removeClass('open');
+          $('.h').slideUp();
+          $(this).find('.j').text('▼');
+        } else {
+          $('.h').addClass('open');
+          $('.h').slideDown()
+          $(this).find('.j').text('▲')
+        }
+      });
+      $('.l').click(function() {
+        var $o = $(this).find('.o');
+        if ($('.o').hasClass('open')) {
+          $('.o').removeClass('open');
+          $('.o').slideUp();
+          $(this).find('.n').text('▼');
+        } else {
+          $('.o').addClass('open');
+          $('.o').slideDown()
+          $(this).find('.n').text('▲')
+        }
+      });
+    });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="b">
+        <li><自由研究></li>
+        <h1 class="c">プログラミングとは</h1>
+      </div>
+    </header>
+    <div class="a">
+    <div>
+    <!--aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa←ここまで-->
+    <!--spanタグで赤になる-->
+    <!--<div class=""></div>これを表示する　　　　<code>&lt;div&nbsp;class&equals;&quot;a&quot;&gt;&lt;&sol;div&gt;</code>-->
+    <p>皆さんはプログラミングがどんなものか知っていますか？</p>
+    <p>まず最初にブロックのようなものをつなげてロボットを動かしたり、</p>
+    <p>キャラクターを動かしたりすることをおもいつくでしょう。</p>
+    <p>ですが、プログラミングでは今皆さんが見ているこのサイトなども作れたりします。</p>
+    <p>そこでプログラミングについて説明します。</p>
+    <p><h4 class="i"><span class="k">プログラミングについての説明 </span><span class="j">▼</span></p>
+    <h4 class="h">
+    <p>プログラミングには色々な言葉（言語）というものがあって、その言語によってできることが違うのでそれらを組み合わせて作ります。</p>
+    <p>たとえばこのサイトでは基本の文字を書いたり色、写真、文字の大きさなどを変えられる<span>HTML & CSS</span> というものと</p>
+    <p>動きなどをつけられる<span>jQuery</span>というものを使っています。</p>
+    <p>ほかにも　JavaScript　Ruby</p>
+    <p>など15種類以上の言語があります。</p>
+    <p>今回なかみのコードについては詳しく説明しませんが、HTML & CSSの基本になるコードは下のものです。</p>
+    <code>
+      <p>&lt;&excl;DOCTYPE&nbsp;html&gt;</p>
+      <p>&lt;html&gt;</p>
+      <p>&lt;head&gt;</p>
+      <p>&lt;meta&nbsp;charset&equals;&quot;utf&minus;8&quot;&gt;</p>
+      <p>&lt;title&gt;&lt;&sol;title&gt;</p>
+      <p>&lt;link&nbsp;rel&equals;&quot;stylesheet&quot;&nbsp;href&equals;&quot;stylesheet&period;css&quot;&gt;</p>
+      <p>&lt;&sol;head&gt;</p>
+      <p>&lt;body&gt;</p>
+      <p>&lt;header&gt;</p>
+      <p>&lt;&sol;header&gt;</p>
+      <p>&lt;div&nbsp;class&equals;&quot;top&minus;wrapper&quot;&gt;</p>
+      <p>&lt;&sol;div&gt;</p>
+      <p>&lt;div&nbsp;class&equals;&quot;lesson&minus;wrapper&quot;&gt;</p>
+      <p>&lt;&sol;div&gt;</p>
+      <p>&lt;div&nbsp;class&equals;&quot;message&minus;wrapper&quot;&gt;</p>
+      <p>&lt;&sol;div&gt;</p>
+      <p>&lt;footer&gt;</p>
+      <p>&lt;&sol;footer&gt;</p>
+      <p>&lt;&sol;body&gt;</p>
+      <p>&lt;&sol;html&gt;</p>
+    </code>
+    <p>ちなみにこのサイトのコードがきになる人はctrl+u のキー　または　F12キーを押してみてください。(スマホはできません)</p>
+    </h4>
+    </h4>
+    <p><h4 class="l"><span class="m">感想 </span><span class="n">▼</span></p>
+    <h4 class="o">
+      <p>休校期間中に時間があったので、興味があったプログラミングを始めました。</p>
+      <p>最初はブロックをつなげていくものをやっていたけど、もっとプログラミングを勉強したかったので、このHTML & CSSなどのコードを書いていくプログラミングを始めました。</p>
+      <p>そして勉強をして基本的なことは分かって来たのでこのページを作ってみました。</p>
+      <p>プログラミングには沢山の覚えることがあるので、これからもがんばって勉強していきたいです。</p>
+    </h4>
+  </h4>
+    </div>
+    </div>
+    <footer>
+      <div class="y">
+        <a href="#" class="z"><img src="yajirusi.bmp"></a>
+      </div>
+    </footer>
+  </body>
+</html>
